@@ -90,7 +90,7 @@ So far, we have learned the following elements:
 | `<img>`      | Insert image                         | `<img src="url" alt="Image description">`|
 
 
-#### 2.3 Semantic HTML Elements
+<!-- #### 2.3 Semantic HTML Elements
 
 Semantic HTML elements clearly describe their meaning in a human- and machine-readable way, making them essential for accessibility and SEO. These elements serve as more descriptive containers than non-semantic ones like `<div>`, offering structure and meaning to web content. They are treated as block elements by default. Below is a table outlining some common semantic elements and their purposes.
 
@@ -101,7 +101,7 @@ Semantic HTML elements clearly describe their meaning in a human- and machine-re
 | `footer`  | Defines a footer for a document or section, containing information about the author, copyright, etc. |
 | `section` | Represents a standalone section of content that may be contained within an article or document body. |
 | `article` | Indicates a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable. |
-| `aside`   | Defines some content loosely related to the content around the `aside` element, such as sidebars, advertisements, or call-out boxes. |
+| `aside`   | Defines some content loosely related to the content around the `aside` element, such as sidebars, advertisements, or call-out boxes. | -->
 
 
 
@@ -122,37 +122,37 @@ Semantic HTML elements clearly describe their meaning in a human- and machine-re
 | `font-style`      | Sets the style of the font (e.g., italic).   | `font-style: italic;`          |
 
 
-### Sizes
+<!-- ### Sizes
 | Property    | Description                                | Example            |
 |-------------|--------------------------------------------|---------------------|
 | `width`     | Sets the width of an element.              | `width: 100px;`     |
-| `height`    | Determines the height of an element.       | `height: 200px;`    |
+| `height`    | Determines the height of an element.       | `height: 200px;`    | -->
 
-### Margins and Borders
+<!-- ### Margins and Borders
 | Property    | Description                                    | Example                   |
 |-------------|-------------------------------------------------|--------------------------|
 | `margin`    | Defines the outer margin around an element.    | `margin: 10px;`          |
 | `padding`   | Sets the inner padding within an element.      | `padding: 20px;`         |
-| `border`    | Adds a border around the element.              | `border: 1px solid black;`|
+| `border`    | Adds a border around the element.              | `border: 1px solid black;`| -->
 
-### Background
+<!-- ### Background
 | Property          | Description                       | Example                      |
 |-------------------|-----------------------------------|------------------------------|
 | `background-color`| Sets the background color.        | `background-color: yellow;`  |
 | `background-image` | Specifies an image to use as the background of an element.   | `background-image: url('./image.jpg');`   |
 | `background-size`  | Specifies the size of the background images.                 | `background-size: cover;`               |
-| `background-repeat`| Sets how background images are repeated. A background image can be repeated along the axis, not repeated, or stretched. | `background-repeat: no-repeat;`         |
+| `background-repeat`| Sets how background images are repeated. A background image can be repeated along the axis, not repeated, or stretched. | `background-repeat: no-repeat;`         | -->
 
-### Display Property
+<!-- ### Display Property
 
 | Value         | Description                                                                                                       |
 |---------------|-------------------------------------------------------------------------------------------------------------------|
 | `inline`      | Displays an element as an inline element, similar to `<span>`. Height and width properties have no effect on it. |
 | `block`       | Displays an element as a block element, similar to `<div>`. It starts on a new line and takes up the full width. |
 | `inline-block`| Combines the behaviors of `inline` and `block`: it does not start on a new line but can have width and height.   |
-| `flex`        | Displays an element as a block-level flex container, facilitating the application of the flexbox layout model.   |
+| `flex`        | Displays an element as a block-level flex container, facilitating the application of the flexbox layout model.   | -->
 
-### Flex Properties
+<!-- ### Flex Properties
 
 For a comprehensive understanding of Flexbox and its capabilities, consider exploring [this detailed guide on CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), which offers in-depth explanations and examples.
 
@@ -162,9 +162,9 @@ For a comprehensive understanding of Flexbox and its capabilities, consider expl
 | `align-items`     | Controls the alignment of items on the cross axis (vertical by default).                            |
 | `gap`             | Defines the space between flex items. It applies both row gap and column gap.                       |
 | `flex-wrap`       | Specifies whether flex items are forced onto one line or can wrap onto multiple lines.              |
+ -->
 
-
-### Position Property
+<!-- ### Position Property
 
 The CSS `position` property specifies how an element is positioned in a document. The positioning is relative to its first positioned (non-static) ancestor element. This allows for the creation of complex layouts and the precise placement of elements within a page. Below is a table outlining the values of the `position` property and their behavior:
 
@@ -174,7 +174,7 @@ The CSS `position` property specifies how an element is positioned in a document
 | `relative` | Positioned relative to its normal position, allowing you to adjust its location using top, right, bottom, left properties. |
 | `absolute` | Removed from the normal document flow; positioned relative to its closest positioned ancestor if any, otherwise to the initial containing block. |
 | `fixed`    | Removed from the normal document flow; positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. |
-| `sticky`   | A hybrid of relative and fixed positioning. The element is treated as `relative` until it crosses a specified point, then it is treated as `fixed`. |
+| `sticky`   | A hybrid of relative and fixed positioning. The element is treated as `relative` until it crosses a specified point, then it is treated as `fixed`. | -->
 
 
 
