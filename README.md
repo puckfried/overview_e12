@@ -83,11 +83,12 @@ So far, we have learned the following elements:
    
 #### 2.2 Inline Elements (only occupy the width of their content)
 
-| HTML Element | Description                          | Example                                  |
-|:------------:|:-------------------------------------:|:----------------------------------------:|
-| `<a>`        | Hyperlink (internal, external)        | `<a href="url">Link text</a>`            |
-| `<br>`       | Special empty element for line breaks | `This is a text<br>new line`             |
-| `<img>`      | Insert image                         | `<img src="url" alt="Image description">`|
+| HTML Element | Description                             | Example                                  |
+|:------------:|:---------------------------------------:|:----------------------------------------:|
+| `<a>`        | Hyperlink (internal, external)          | `<a href="url">Link text</a>`            |
+| `<br>`       | Special empty element for line breaks   | `This is a text<br>new line`             |
+| `<img>`      | Insert image                            | `<img src="url" alt="Image description">`|
+| `<button>`   | Button                                  | `<button>button text</button>`           |
 
 
 <!-- #### 2.3 Semantic HTML Elements
@@ -122,24 +123,24 @@ Semantic HTML elements clearly describe their meaning in a human- and machine-re
 | `font-style`      | Sets the style of the font (e.g., italic).   | `font-style: italic;`          |
 
 
-<!-- ### Sizes
+### Sizes
 | Property    | Description                                | Example            |
 |-------------|--------------------------------------------|---------------------|
 | `width`     | Sets the width of an element.              | `width: 100px;`     |
-| `height`    | Determines the height of an element.       | `height: 200px;`    | -->
+| `height`    | Determines the height of an element.       | `height: 200px;`    |
 
-<!-- ### Margins and Borders
+### Margins and Borders
 | Property    | Description                                    | Example                   |
 |-------------|-------------------------------------------------|--------------------------|
 | `margin`    | Defines the outer margin around an element.    | `margin: 10px;`          |
 | `padding`   | Sets the inner padding within an element.      | `padding: 20px;`         |
-| `border`    | Adds a border around the element.              | `border: 1px solid black;`| -->
+| `border`    | Adds a border around the element.              | `border: 1px solid black;`|
 
-<!-- ### Background
+### Background
 | Property          | Description                       | Example                      |
 |-------------------|-----------------------------------|------------------------------|
 | `background-color`| Sets the background color.        | `background-color: yellow;`  |
-| `background-image` | Specifies an image to use as the background of an element.   | `background-image: url('./image.jpg');`   |
+<!-- | `background-image` | Specifies an image to use as the background of an element.   | `background-image: url('./image.jpg');`   |
 | `background-size`  | Specifies the size of the background images.                 | `background-size: cover;`               |
 | `background-repeat`| Sets how background images are repeated. A background image can be repeated along the axis, not repeated, or stretched. | `background-repeat: no-repeat;`         | -->
 
