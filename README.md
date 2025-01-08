@@ -91,7 +91,7 @@ So far, we have learned the following elements:
 | `<button>`   | Button                                  | `<button>button text</button>`           |
 
 
-<!-- #### 2.3 Semantic HTML Elements
+#### 2.3 Semantic HTML Elements
 
 Semantic HTML elements clearly describe their meaning in a human- and machine-readable way, making them essential for accessibility and SEO. These elements serve as more descriptive containers than non-semantic ones like `<div>`, offering structure and meaning to web content. They are treated as block elements by default. Below is a table outlining some common semantic elements and their purposes.
 
@@ -102,7 +102,7 @@ Semantic HTML elements clearly describe their meaning in a human- and machine-re
 | `footer`  | Defines a footer for a document or section, containing information about the author, copyright, etc. |
 | `section` | Represents a standalone section of content that may be contained within an article or document body. |
 | `article` | Indicates a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable. |
-| `aside`   | Defines some content loosely related to the content around the `aside` element, such as sidebars, advertisements, or call-out boxes. | -->
+| `aside`   | Defines some content loosely related to the content around the `aside` element, such as sidebars, advertisements, or call-out boxes. | 
 
 
 
@@ -140,11 +140,11 @@ Semantic HTML elements clearly describe their meaning in a human- and machine-re
 | Property          | Description                       | Example                      |
 |-------------------|-----------------------------------|------------------------------|
 | `background-color`| Sets the background color.        | `background-color: yellow;`  |
-<!-- | `background-image` | Specifies an image to use as the background of an element.   | `background-image: url('./image.jpg');`   |
+| `background-image` | Specifies an image to use as the background of an element.   | `background-image: url('./image.jpg');`   |
 | `background-size`  | Specifies the size of the background images.                 | `background-size: cover;`               |
-| `background-repeat`| Sets how background images are repeated. A background image can be repeated along the axis, not repeated, or stretched. | `background-repeat: no-repeat;`         | -->
+| `background-repeat`| Sets how background images are repeated. A background image can be repeated along the axis, not repeated, or stretched. | `background-repeat: no-repeat;`         | 
 
-<!-- ### Display Property
+### Display Property
 
 | Value         | Description                                                                                                       |
 |---------------|-------------------------------------------------------------------------------------------------------------------|
@@ -153,7 +153,7 @@ Semantic HTML elements clearly describe their meaning in a human- and machine-re
 | `inline-block`| Combines the behaviors of `inline` and `block`: it does not start on a new line but can have width and height.   |
 | `flex`        | Displays an element as a block-level flex container, facilitating the application of the flexbox layout model.   | -->
 
-<!-- ### Flex Properties
+### Flex Properties
 
 For a comprehensive understanding of Flexbox and its capabilities, consider exploring [this detailed guide on CSS-Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), which offers in-depth explanations and examples.
 
@@ -163,7 +163,7 @@ For a comprehensive understanding of Flexbox and its capabilities, consider expl
 | `align-items`     | Controls the alignment of items on the cross axis (vertical by default).                            |
 | `gap`             | Defines the space between flex items. It applies both row gap and column gap.                       |
 | `flex-wrap`       | Specifies whether flex items are forced onto one line or can wrap onto multiple lines.              |
- -->
+
 
 <!-- ### Position Property
 
